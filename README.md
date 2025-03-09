@@ -41,6 +41,19 @@ For this project analyzing Kimia Farma's business performance, I utilized severa
 
 These tools allowed me to streamline data analysis, visualization, and project management effectively. 🔍
 
+# 📂 Data Understanding
+
+In this project, I worked with **four CSV files** containing key business data from **Kimia Farma**:
+
+- **kf_final_transaction** 🧾: Contains transactional records, including sales and revenue details.
+- **kf_inventory** 📦: Tracks product stock levels and inventory movement.
+- **kf_kantor_cabang** 🏢: Provides information about branch locations and operational details.
+- **kf_product** 🏷️: Lists product details, including categories and pricing.
+
+After uploading these files into **Google BigQuery**, I created a new table called 'analyze' within the same dataset. This table serves as a **centralized data source**, combining the four CSV files to facilitate a more streamlined and efficient analysis process.
+
+The next step involved **merging these** datasets using SQL queries to ensure a structured and cohesive dataset for further analysis. Below is the SQL code used to create the 'analyze' table:
+
 # 📑 The Analysis
 
 Each query in this project was designed to explore key aspects of **Kimia Farma’s business performance**.
