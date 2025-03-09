@@ -103,11 +103,8 @@ After successfully creating the **'analyze'** table in **Google BigQuery** by me
 ### 🔗 **Connecting BigQuery to Google Looker Studio**
 
 1. Open **Google Looker Studio** and create a new data source.
-
 2. Select **Google BigQuery** as the data source.
-
 3. Choose the project containing the **kimia_darma** dataset and select the **'analyze'** table.
-
 4. Click **Connect** to link the table to Looker Studio.
 
 ### 📊 **Using Google Looker Studio for Analysis & Visualization**
