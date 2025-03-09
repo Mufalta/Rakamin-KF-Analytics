@@ -97,7 +97,7 @@ JOIN `kimia_farma.kf_kantor_cabang` c
     ON t.branch_id = c.branch_id
 JOIN `kimia_farma.kf_product` p 
     ON t.product_id = p.product_id;
-\`\`\`
+```
 
 # 📑 The Analysis
 
