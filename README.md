@@ -16,6 +16,7 @@ Driven by a quest to gain deeper insights into **Kimia Farma's business performa
 The dataset is obtained directly from **Kimia Farma's internal records**. Due to the **sensitive and confidential** nature of the data, the dataset will not publicly shared. This analysis aims to generate a **comprehensive dashboard in Google Looker Studio**, allowing stakeholders to visualize **Kimia Farma's business trends** effectively.
 
 Through SQL queries and data visualization, the project seeks to answer:
+
 📈 **How has Kimia Farma's revenue evolved from 2020 to 2023?**
 
 🌍 **Which provinces have the highest total transactions?**
