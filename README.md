@@ -1,5 +1,5 @@
 # 🚀 Introduction
-## 📊 **Kimia Farma Business Performance Analysis**
+### 📊 **Kimia Farma Business Performance Analysis**
 
 📌 **Description:**
 
@@ -15,7 +15,7 @@ Driven by a quest to gain deeper insights into **Kimia Farma's business performa
 
 The dataset is obtained directly from **Kimia Farma's internal records**. Due to the **sensitive and confidential** nature of the data, the dataset will not publicly shared. This analysis aims to generate a **comprehensive dashboard in Google Looker Studio**, allowing stakeholders to visualize **Kimia Farma's business trends** effectively.
 
-## **Through SQL queries and data visualization, the project seeks to answer**:
+### **Through SQL queries and data visualization, the project seeks to answer**:
 
 📈 How has Kimia Farma's revenue evolved from 2020 to 2023?
 
@@ -100,7 +100,17 @@ JOIN `kimia_farma.kf_product` p
 ```
 After successfully creating the 'analyze' table in **Google BigQuery** by merging the CSV files, the next step is to connect this table to **Google Looker Studio** for **data analysis and visualization**.
 
-## **Co
+### 🔗 **Connecting BigQuery to Google Looker Studio**
+
+1. Open **Google Looker Studio** and create a new data source.
+
+2. Select **Google BigQuery** as the data source.
+
+3. Choose the project containing the **kimia_darma** dataset and select the 'analyze' table.
+
+4. Click **Connect** to link the table to Looker Studio.
+
+
 
 # 📑 The Analysis
 
