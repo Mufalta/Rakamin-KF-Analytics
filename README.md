@@ -50,9 +50,9 @@ In this project, I worked with **four CSV files** containing key business data f
 - **kf_kantor_cabang** 🏢: Provides information about branch locations and operational details.
 - **kf_product** 🏷️: Lists product details, including categories and pricing.
 
-After uploading these files into **Google BigQuery**, I created a new table called 'analyze' within the same dataset. This table serves as a **centralized data source**, combining the four CSV files to facilitate a more streamlined and efficient analysis process.
+After uploading these files into **Google BigQuery**, I created a new table called **'analyze'** within the same dataset. This table serves as a **centralized data source**, combining the four CSV files to facilitate a more streamlined and efficient analysis process.
 
-The next step involved **merging these** datasets using SQL queries to ensure a structured and cohesive dataset for further analysis. Below is the SQL code used to create the 'analyze' table:
+The next step involved **merging these** datasets using SQL queries to ensure a structured and cohesive dataset for further analysis. Below is the SQL code used to create the **'analyze'** table:
 ```sql
 CREATE OR REPLACE TABLE `kimia_farma.analyze` AS
 SELECT 
@@ -98,7 +98,7 @@ JOIN `kimia_farma.kf_kantor_cabang` c
 JOIN `kimia_farma.kf_product` p 
     ON t.product_id = p.product_id;
 ```
-After successfully creating the 'analyze' table in **Google BigQuery** by merging the CSV files, the next step is to connect this table to **Google Looker Studio** for **data analysis and visualization**.
+After successfully creating the **'analyze'** table in **Google BigQuery** by merging the CSV files, the next step is to connect this table to **Google Looker Studio** for **data analysis and visualization**.
 
 ### 🔗 **Connecting BigQuery to Google Looker Studio**
 
@@ -106,11 +106,19 @@ After successfully creating the 'analyze' table in **Google BigQuery** by mergin
 
 2. Select **Google BigQuery** as the data source.
 
-3. Choose the project containing the **kimia_darma** dataset and select the 'analyze' table.
+3. Choose the project containing the **kimia_darma** dataset and select the **'analyze'** table.
 
 4. Click **Connect** to link the table to Looker Studio.
 
+### 📊 **Using Google Looker Studio for Analysis & Visualization**
 
+Once the **'analyze'** table is connected, the data can be visualized using various Looker Studio components, such as:
+
+- **Bar Charts & Line Charts** 📈: To observe sales and profit trends.
+- **Geo Maps** 🗺️: To visualize the distribution of transactions and branch performance across different locations.
+- **Tables & Scorecards** 📊: To highlight key metrics like total revenue, net profit, and product performance.
+
+By leveraging **Google Looker Studio**, I can gain deeper insights into **Kimia Farma's business performance**, enabling data-driven decision-making. 🎯
 
 # 📑 The Analysis
 
