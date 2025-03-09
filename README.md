@@ -28,16 +28,4 @@ Through SQL queries and data visualization, the project seeks to answer:
 
 🔎 **What additional insights can be derived to optimize business performance?**
 
-The final dashboard in Google Looker Studio will include:  
-✅ **Dashboard Title**  
-✅ **Summary Dashboard**  
-✅ **Filter Controls** for better data exploration  
-✅ **Snapshot Data** of key metrics  
-✅ **Year-over-Year Revenue Comparison**  
-✅ **Top 10 Provinces by Total Transactions**  
-✅ **Top 10 Provinces by Net Sales**  
-✅ **Top 5 Branches with Highest Ratings but Lowest Transactions**  
-✅ **Indonesia’s Geo Map for Total Profit per Province**  
-✅ **Additional insights derived from the analysis**  
-
 By developing this project, I aim to enhance my **data analytics skills**, particularly in **SQL, BigQuery, and Google Looker Studio**, while delivering valuable insights for **Kimia Farma’s business strategy**. 🚀
