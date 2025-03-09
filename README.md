@@ -62,7 +62,6 @@ SELECT
     c.branch_name,
     c.kota,
     c.provinsi,
-    c.rating_cabang,
     t.customer_name,
     t.product_id,
     p.product_name,
