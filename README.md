@@ -16,10 +16,15 @@ The dataset is obtained directly from **Kimia Farma's internal records**. Due to
 
 Through SQL queries and data visualization, the project seeks to answer:
 📈 **How has Kimia Farma's revenue evolved from 2020 to 2023?**
+
 🌍 **Which provinces have the highest total transactions?**
+
 💰 **What are the top 10 branches with the highest net sales?**
+
 ⭐ **Which top 5 branches have the highest ratings but lowest transaction volumes?**
+
 🗺️ **How does Kimia Farma’s total profit distribution look across Indonesia’s provinces?**
+
 🔎 **What additional insights can be derived to optimize business performance?**
 
 The final dashboard in Google Looker Studio will include:  
