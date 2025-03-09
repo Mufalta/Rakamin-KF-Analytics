@@ -40,3 +40,8 @@ For this project analyzing Kimia Farma's business performance, I utilized severa
 - **Git & GitHub**: Essential for version control, tracking progress, and sharing my work in a structured and collaborative manner.
 
 These tools allowed me to streamline data analysis, visualization, and project management effectively. 🔍
+
+# 📑 The Analysis
+
+Each query in this project was designed to explore key aspects of **Kimia Farma’s business performance**.
+Here's how I approached the analysis:
