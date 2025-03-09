@@ -48,7 +48,7 @@ In this project, I worked with **four CSV files** containing key business data f
 - **kf_kantor_cabang** 🏢: Provides information about branch locations and operational details.
 - **kf_product** 🏷️: Lists product details, including categories and pricing.
 
-After uploading these files into **Google BigQuery**, I created a new table called **'analyze'** within the same dataset. This table serves as a **centralized data source**, combining the four CSV files to facilitate a more streamlined and efficient analysis process.
+After uploading these files into **Google BigQuery**, I created a new table called ```analyze``` within the same dataset. This table serves as a **centralized data source**, combining the four CSV files to facilitate a more streamlined and efficient analysis process.
 
 The next step involved **merging these** datasets using SQL queries to ensure a structured and cohesive dataset for further analysis. Below is the SQL code used to create the **'analyze'** table:
 ```sql
