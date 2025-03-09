@@ -62,6 +62,7 @@ SELECT
     c.branch_name,
     c.kota,
     c.provinsi,
+    c.rating AS rating_cabang,  -- Tambahkan kolom rating_cabang di sini
     t.customer_name,
     t.product_id,
     p.product_name,
