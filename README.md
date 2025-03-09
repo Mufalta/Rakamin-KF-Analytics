@@ -2,9 +2,10 @@
 📊 **Kimia Farma Business Performance Analysis**
 
 📌 **Description:**
-In today's data-driven world, **business performance analysis** plays a crucial role in making informed decisions. This project focuses on analyzing **Kimia Farma's** business performance **from 2020 to 2023** 📅 using **Google Big Query** 🛠️ as part of a **Rakamin Academy** 🎓 program in collaboration with **Kimia Farma** 🏥.
 
-This repository contains the complete **workflow** 🔄, from **data processing** 🧩 to **final insights** 💡. By leveraging **SQL queries** and **data visualization tools**, this project will transform raw data into **meaningful business intelligence** and uncover **key insights** 🔍.
+In today's data-driven world, **business performance analysis** plays a crucial role in making informed decisions. This project focuses on analyzing **Kimia Farma's** business performance **from 2020 to 2023** using **Google Big Query** as part of a **Rakamin Academy** program in collaboration with **Kimia Farma**.
+
+This repository contains the complete **workflow**, from **data processing** to **final insights**. By leveraging **SQL queries** and **data visualization tools**, this project will transform raw data into **meaningful business intelligence** and uncover **key insights** 🔍.
 
 The final results will be presented through an **interactive dashboard 📊 in Google Looker Studio**, making it easier to interpret trends and patterns in **Kimia Farma's financial and operational performance** 💰📈.
 
