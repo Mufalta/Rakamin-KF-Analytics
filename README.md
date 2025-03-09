@@ -53,6 +53,50 @@ In this project, I worked with **four CSV files** containing key business data f
 After uploading these files into **Google BigQuery**, I created a new table called 'analyze' within the same dataset. This table serves as a **centralized data source**, combining the four CSV files to facilitate a more streamlined and efficient analysis process.
 
 The next step involved **merging these** datasets using SQL queries to ensure a structured and cohesive dataset for further analysis. Below is the SQL code used to create the 'analyze' table:
+```sql
+CREATE OR REPLACE TABLE `kimia_farma.analyze` AS
+SELECT 
+    t.transaction_id,
+    t.date,
+    t.branch_id,
+    c.branch_name,
+    c.kota,
+    c.provinsi,
+    c.rating_cabang,
+    t.customer_name,
+    t.product_id,
+    p.product_name,
+    t.price AS actual_price,
+    t.discount_percentage,
+
+    -- Hitung Nett Sales
+    t.price * (1 - t.discount_percentage / 100) AS nett_sales,
+
+    -- Tentukan persentase gross laba berdasarkan harga
+    CASE 
+        WHEN t.price <= 50000 THEN 0.10
+        WHEN t.price > 50000 AND t.price <= 100000 THEN 0.15
+        WHEN t.price > 100000 AND t.price <= 300000 THEN 0.20
+        WHEN t.price > 300000 AND t.price <= 500000 THEN 0.25
+        ELSE 0.30
+    END AS persentase_gross_laba,
+
+    -- Hitung Nett Profit
+    (t.price * (1 - t.discount_percentage / 100)) * 
+    CASE 
+        WHEN t.price <= 50000 THEN 0.10
+        WHEN t.price > 50000 AND t.price <= 100000 THEN 0.15
+        WHEN t.price > 100000 AND t.price <= 300000 THEN 0.20
+        WHEN t.price > 300000 AND t.price <= 500000 THEN 0.25
+        ELSE 0.30
+    END AS nett_profit,
+
+    t.rating AS rating_transaksi
+FROM `kimia_farma.kf_final_transaction` t
+JOIN `kimia_farma.kf_kantor_cabang` c 
+    ON t.branch_id = c.branch_id
+JOIN `kimia_farma.kf_product` p 
+    ON t.product_id = p.product_id;```
 
 # 📑 The Analysis
 
