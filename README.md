@@ -44,4 +44,5 @@ These tools allowed me to streamline data analysis, visualization, and project m
 # 📑 The Analysis
 
 Each query in this project was designed to explore key aspects of **Kimia Farma’s business performance**.
+
 Here's how I approached the analysis:
