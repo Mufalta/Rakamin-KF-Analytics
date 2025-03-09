@@ -98,14 +98,14 @@ JOIN `kimia_farma.kf_product` p
 ```
 After successfully creating the ```analyze``` table in **Google BigQuery** by merging the CSV files, the next step is to connect this table to **Google Looker Studio** for **data analysis and visualization**.
 
-### 🔗 **Connecting BigQuery to Google Looker Studio**
+### **Connecting BigQuery to Google Looker Studio**
 
 1. Open **Google Looker Studio** and create a new data source.
 2. Select **Google BigQuery** as the data source.
 3. Choose the project containing the ```kimia_farma``` dataset and select the ```analyze``` table.
 4. Click **Connect** to link the table to Looker Studio.
 
-### 📊 **Using Google Looker Studio for Analysis & Visualization**
+### **Using Google Looker Studio for Analysis & Visualization**
 
 Once the ```analyze``` table is connected, the data can be visualized using various Looker Studio components, such as:
 
