@@ -27,8 +27,6 @@ The dataset is obtained directly from **Kimia Farma's internal records**. Due to
 
 🗺️ How does Kimia Farma’s total profit distribution look across Indonesia’s provinces?
 
-🔎 What additional insights can be derived to optimize business performance?
-
 By developing this project, I aim to enhance my **data analytics skills**, particularly in **SQL, BigQuery, and Google Looker Studio**, while delivering valuable insights for **Kimia Farma’s business strategy**. 📊
 
 # 🛠️ Tools I Used
