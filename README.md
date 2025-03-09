@@ -1,5 +1,5 @@
 # 🚀 Introduction
-📊 **Kimia Farma Business Performance Analysis**
+📊 ## **Kimia Farma Business Performance Analysis**
 
 📌 **Description:**
 
@@ -15,19 +15,19 @@ Driven by a quest to gain deeper insights into **Kimia Farma's business performa
 
 The dataset is obtained directly from **Kimia Farma's internal records**. Due to the **sensitive and confidential** nature of the data, the dataset will not publicly shared. This analysis aims to generate a **comprehensive dashboard in Google Looker Studio**, allowing stakeholders to visualize **Kimia Farma's business trends** effectively.
 
-Through SQL queries and data visualization, the project seeks to answer:
+## **Through SQL queries and data visualization, the project seeks to answer**:
 
-📈 **How has Kimia Farma's revenue evolved from 2020 to 2023?**
+📈 How has Kimia Farma's revenue evolved from 2020 to 2023?
 
-🌍 **Which provinces have the highest total transactions?**
+🌍 Which provinces have the highest total transactions?
 
-💰 **What are the top 10 branches with the highest net sales?**
+💰 What are the top 10 branches with the highest net sales?
 
-⭐ **Which top 5 branches have the highest ratings but lowest transaction volumes?**
+⭐ Which top 5 branches have the highest ratings but lowest transaction volumes?
 
-🗺️ **How does Kimia Farma’s total profit distribution look across Indonesia’s provinces?**
+🗺️ How does Kimia Farma’s total profit distribution look across Indonesia’s provinces?
 
-🔎 **What additional insights can be derived to optimize business performance?**
+🔎 What additional insights can be derived to optimize business performance?
 
 By developing this project, I aim to enhance my **data analytics skills**, particularly in **SQL, BigQuery, and Google Looker Studio**, while delivering valuable insights for **Kimia Farma’s business strategy**. 📊
 
@@ -98,6 +98,9 @@ JOIN `kimia_farma.kf_kantor_cabang` c
 JOIN `kimia_farma.kf_product` p 
     ON t.product_id = p.product_id;
 ```
+After successfully creating the 'analyze' table in **Google BigQuery** by merging the CSV files, the next step is to connect this table to **Google Looker Studio** for **data analysis and visualization**.
+
+## **Co
 
 # 📑 The Analysis
 
