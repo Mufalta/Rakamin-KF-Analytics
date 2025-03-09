@@ -62,17 +62,17 @@ SELECT
     c.branch_name,
     c.kota,
     c.provinsi,
-    c.rating AS rating_cabang,  -- Tambahkan kolom rating_cabang di sini
+    c.rating AS rating_cabang,
     t.customer_name,
     t.product_id,
     p.product_name,
     t.price AS actual_price,
     t.discount_percentage,
     
-    -- Hitung Nett Sales
+    -- Calculate Net Sales
     t.price * (1 - t.discount_percentage / 100) AS nett_sales,
     
-    -- Tentukan persentase gross laba berdasarkan harga
+    -- Determine the Gross Profit Percentage based on Price
     CASE 
         WHEN t.price <= 50000 THEN 0.10
         WHEN t.price > 50000 AND t.price <= 100000 THEN 0.15
@@ -81,7 +81,7 @@ SELECT
         ELSE 0.30
     END AS persentase_gross_laba,
 
-    -- Hitung Nett Profit
+    -- Calculate Net Profit
     (t.price * (1 - t.discount_percentage / 100)) * 
     CASE 
         WHEN t.price <= 50000 THEN 0.10
