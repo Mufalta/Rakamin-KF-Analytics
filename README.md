@@ -1,5 +1,5 @@
 # 🚀 Introduction
-📊 ## **Kimia Farma Business Performance Analysis**
+📊## **Kimia Farma Business Performance Analysis**
 
 📌 **Description:**
 
