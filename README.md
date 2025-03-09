@@ -6,7 +6,7 @@ In today's data-driven world, **business performance analysis** plays a crucial 
 
 This repository contains the complete **workflow** 🔄, from **data processing** 🧩 to **final insights** 💡. By leveraging **SQL queries** and **data visualization tools**, this project will transform raw data into **meaningful business intelligence** and uncover **key insights** 🔍.
 
-The final results will be presented through an **interactive dashboard 📊 in Google Looker Studio**, making it easier to interpret trends and patterns in in **Kimia Farma's financial and operational performance** 💰📈.
+The final results will be presented through an **interactive dashboard 📊 in Google Looker Studio**, making it easier to interpret trends and patterns in **Kimia Farma's financial and operational performance** 💰📈.
 
 # 📖 Background
 
@@ -15,16 +15,11 @@ Driven by a quest to gain deeper insights into **Kimia Farma's business performa
 The dataset is obtained directly from **Kimia Farma's internal records**. Due to the **sensitive and confidential** nature of the data, the dataset will not publicly shared. This analysis aims to generate a **comprehensive dashboard in Google Looker Studio**, allowing stakeholders to visualize **Kimia Farma's business trends** effectively.
 
 Through SQL queries and data visualization, the project seeks to answer:
-
 📈 **How has Kimia Farma's revenue evolved from 2020 to 2023?**
 🌍 **Which provinces have the highest total transactions?**
-
 💰 **What are the top 10 branches with the highest net sales?**
-
 ⭐ **Which top 5 branches have the highest ratings but lowest transaction volumes?**
-
 🗺️ **How does Kimia Farma’s total profit distribution look across Indonesia’s provinces?**
-
 🔎 **What additional insights can be derived to optimize business performance?**
 
 The final dashboard in Google Looker Studio will include:  
