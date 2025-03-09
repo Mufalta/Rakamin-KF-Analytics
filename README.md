@@ -68,10 +68,10 @@ SELECT
     p.product_name,
     t.price AS actual_price,
     t.discount_percentage,
-
+    
     -- Hitung Nett Sales
     t.price * (1 - t.discount_percentage / 100) AS nett_sales,
-
+    
     -- Tentukan persentase gross laba berdasarkan harga
     CASE 
         WHEN t.price <= 50000 THEN 0.10
