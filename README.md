@@ -124,3 +124,4 @@ After transforming the data into an **interactive dashboard**, it's time to delv
 
 _Dashboard of Kimia Farma Business Performance from 2020 to 2023_
 
+To answer specific business questions, I will use animated GIFs to simulate **real-time** data exploration within the dashboard.
