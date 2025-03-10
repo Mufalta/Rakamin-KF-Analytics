@@ -17,15 +17,15 @@ The dataset is obtained directly from **Kimia Farma's internal records**. Due to
 
 ### **Through SQL queries and data visualization, the project seeks to answer**:
 
-📈 How has Kimia Farma's revenue evolved from 2020 to 2023?
+📈 How has Kimia Farma’s revenue changed from 2020 to 2023?
 
-🌍 Which provinces have the highest total transactions?
+🗺️ What is Indonesia’s geo map distribution of total profit by province?
 
-💰 Which top branches with the highest net sales?
+🏆 Which are the top 10 provinces with the highest total transactions?
 
-⭐ Which top branches have the highest ratings but lowest transaction volumes?
+💰 Which are the top 10 provinces with the highest net sales?
 
-🗺️ How does Kimia Farma’s total profit distribution look across Indonesia’s provinces?
+⭐ How does Kimia Farma’s total profit distribution look across Indonesia’s provinces?
 
 By developing this project, I aim to enhance my **data analytics skills**, particularly in **SQL, BigQuery, and Google Looker Studio**, while delivering valuable insights for **Kimia Farma’s business strategy**. 📊
 
@@ -109,26 +109,26 @@ After successfully creating the ```analyze``` table in **Google BigQuery** by me
 
 Once the ```analyze``` table is connected, the data can be visualized using various Looker Studio components, such as:
 
-- **Bar Charts & Line Charts** 📈: To observe sales and profit trends.
-- **Geo Maps** 🗺️: To visualize the distribution of transactions and branch performance across different locations.
-- **Tables & Scorecards** 📊: To highlight key metrics like total revenue, net profit, and product performance.
+- **Bar Charts & Line Charts** 📈: To observe sales trends.
+- **Geo Maps** 🗺️: To visualize the distribution of transactions, net sales and net profit across different locations.
+- **Tables & Scorecards** 📊: To highlight key metrics like total revenue, net profit, and transactions.
 
 By leveraging **Google Looker Studio**, I can gain deeper insights into **Kimia Farma's business performance**, enabling data-driven decision-making. 🎯
 
 # 📑 The Analysis
 
 After transforming the data into an **interactive dashboard**, it's time to delve into the analysis. To provide better clarity, I will display the **dashboard images** below for reference.. Additionally, you can explore the **live dashboard** on Google Looker Studio by clicking the link below:
-[Kimia Farma Dashboard](https://lookerstudio.google.com/s/r-t9LEL_fq8)
+[Kimia Farma Dashboard](https://lookerstudio.google.com/s/uoDWQvZIEZg)
 
-![](https://raw.githubusercontent.com/Mufalta/Rakamin-KF-Analytics/main/Images/Kimia_Farma_-_Muhammad_Naufal_Mahadhitia_page-0001.jpg)
+![](https://raw.githubusercontent.com/Mufalta/Rakamin-KF-Analytics/main/Images/Dashboard.jpg)
 
 _Dashboard of Kimia Farma Business Performance from 2020 to 2023_
 
 To answer specific business questions, I will use animated GIFs to simulate **real-time** data exploration within the dashboard.
 
-### **1. How Has Kimia Farma's Revenue Evolved From 2020 to 2023?** 📈
+### **1. How has Kimia Farma’s revenue changed from 2020 to 2023** 📈
 
-To analyze Kimia Farma's revenue trends from 2020 to 2023, I set ```date``` as the dimension (x-axis) and ```nett_profit``` as the metric (y-axis). Since the data represents changes over time. I used a **Line Chart**, which is ideal for visualizing trends and identifying revenue patterns across different periods. This approach allows us to track revenue fluctuations over time and identify key growth patterns.
+To analyze Kimia Farma's revenue trends from 2020 to 2023, I set ```date``` as the dimension (x-axis) and ```nett_sales``` as the metric (y-axis). Since the data represents changes over time. I used a **Line Chart**, which is ideal for visualizing trends and identifying revenue patterns across different periods. This approach allows us to track revenue fluctuations over time and identify key growth patterns.
 
 Here's the breakdown of Kimia Farma's revenue evolved from 2020 to 2023:
 
@@ -140,7 +140,7 @@ Here's the breakdown of Kimia Farma's revenue evolved from 2020 to 2023:
 
 _Line chart visualizing the net sales from 2020 to 2023_
 
-### **2. Which Provinces Have the Highest Total Transactions?** 🌍
+### **2. What is Indonesia’s geo map distribution of total profit by province** 🗺️
 
 To analyze net profit distribution across provinces, I set ```Province``` as the location dimension and ```nett_profit``` as the metric. I used a **Filled Map Chart** because it provides a clear geographic visualization of profit variations. The color intensity helps quickly identify provinces with the highest and lowest profits, making regional comparisons easier.
 
