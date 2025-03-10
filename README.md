@@ -117,6 +117,5 @@ By leveraging **Google Looker Studio**, I can gain deeper insights into **Kimia 
 
 # 📑 The Analysis
 
-Each query in this project was designed to explore key aspects of **Kimia Farma’s business performance**.
-
-Here's how I approached the analysis:
+After transforming the data into an **interactive dashboard**, it's time to delve into the analysis. To provide better clarity, I will display the **dashboard images** below for reference.. Additionally, you can explore the **live dashboard** on Google Looker Studio by clicking the link below:
+[Kimia Farma Dashboard:](https://lookerstudio.google.com/s/r-t9LEL_fq8)
