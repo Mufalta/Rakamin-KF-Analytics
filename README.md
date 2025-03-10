@@ -122,3 +122,5 @@ After transforming the data into an **interactive dashboard**, it's time to delv
 
 ![](https://raw.githubusercontent.com/Mufalta/Rakamin-KF-Analytics/main/Images/Kimia_Farma_-_Muhammad_Naufal_Mahadhitia_page-0001.jpg)
 
+_Dashboard of Kimia Farma Business Performance from 2020 to 2023_
+
