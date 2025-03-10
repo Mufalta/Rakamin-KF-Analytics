@@ -138,6 +138,22 @@ Here's the breakdown of Kimia Farma's revenue evolved from 2020 to 2023:
 
 ![](https://raw.githubusercontent.com/Mufalta/Rakamin-KF-Analytics/main/Images/Net_Sales_Over_Time.png)
 
+_Line chart visualizing the net sales from 2020 to 2023_
+
+### **2. What is Indonesia’s geo map distribution of total profit by province** 🗺️
+
+To analyze net profit distribution across provinces, I set ```Province``` as the location dimension and ```nett_profit``` as the metric. I used a **Filled Map Chart** because it provides a clear geographic visualization of profit variations. The color intensity helps quickly identify provinces with the highest and lowest profits, making regional comparisons easier.
+
+Here's the breakdown of net profit distribution across provinces:
+
+- **Highest Profit**: The highest net profit is recorded in West Java, reaching approximately Rp29.10 billion, making it the most profitable province.
+- **Widespread Sales**: Net profit is distributed across almost all provinces, indicating a broad market reach across Indonesia.
+- **No Sales in Some Provinces**: Some provinces, including Bengkulu, Lampung, and West Sulawesi, have no recorded net profit, highlighting potential gaps in market coverage.
+
+![](https://raw.githubusercontent.com/Mufalta/Rakamin-KF-Analytics/main/Images/Net_Profit_by_Province.png)
+
+_Filled map chart visualizing profit variations across all provinces in Indonesia_
+
 
 
 
