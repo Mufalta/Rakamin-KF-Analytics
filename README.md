@@ -136,6 +136,7 @@ Here's the breakdown of Kimia Farma's revenue evolved from 2020 to 2023:
 - **Highest Net Sales:** The highest net sales were recorded in May 2020, totaling Rp7,498,873,272, representing the peak sales period in the analyzed timeframe.
 - **Lowest Net Sales:** The lowest net sales occurred in February 2022, reaching Rp6,670,918,229, marking the weakest performance in the observed period.
 
+![](https://raw.githubusercontent.com/Mufalta/Rakamin-KF-Analytics/main/Images/Net_Sales_Over_Time.png.jpg)
 
 _Line chart visualizing the net sales from 2020 to 2023_
 
