@@ -126,7 +126,7 @@ _Dashboard of Kimia Farma Business Performance from 2020 to 2023_
 
 To answer specific business questions, I will use animated GIFs to simulate **real-time** data exploration within the dashboard.
 
-### **1. How has Kimia Farma's revenue evolved from 2020 to 2023?** 📈
+### **1. How Has Kimia Farma's Revenue Evolved From 2020 to 2023?** 📈
 
 To analyze Kimia Farma's revenue trends from 2020 to 2023, I set ```date``` as the dimension (x-axis) and ```nett_profit``` as the metric (y-axis). Since the data represents changes over time. I used a **Line Chart**, which is ideal for visualizing trends and identifying revenue patterns across different periods. This approach allows us to track revenue fluctuations over time and identify key growth patterns.
 
@@ -140,7 +140,7 @@ Here's the breakdown of Kimia Farma's revenue evolved from 2020 to 2023:
 
 _Line chart visualizing the net sales from 2020 to 2023_
 
-### **2. Which provinces have the highest total transactions?** 🌍
+### **2. Which Provinces Have the Highest Total Transactions?** 🌍
 
 To analyze net profit distribution across provinces, I set ```Province``` as the location dimension and ```nett_profit``` as the metric. I used a **Filled Map Chart** because it provides a clear geographic visualization of profit variations. The color intensity helps quickly identify provinces with the highest and lowest profits, making regional comparisons easier.
 
