@@ -136,7 +136,6 @@ Here's the breakdown of Kimia Farma's revenue evolved from 2020 to 2023:
 - **Highest Net Sales:** The highest net sales were recorded in May 2020, totaling Rp7,498,873,272, representing the peak sales period in the analyzed timeframe.
 - **Lowest Net Sales:** The lowest net sales occurred in February 2022, reaching Rp6,670,918,229, marking the weakest performance in the observed period.
 
-![](https://raw.githubusercontent.com/Mufalta/Rakamin-KF-Analytics/main/Images/Net_Sales_Over_Time.png)
 
 _Line chart visualizing the net sales from 2020 to 2023_
 
@@ -150,7 +149,6 @@ Here's the breakdown of net profit distribution across provinces:
 - **Widespread Sales**: Net profit is distributed across almost all provinces, indicating a broad market reach across Indonesia.
 - **No Sales in Some Provinces**: Some provinces, including Bengkulu, Lampung, and West Sulawesi, have no recorded net profit, highlighting potential gaps in market coverage.
 
-![](https://raw.githubusercontent.com/Mufalta/Rakamin-KF-Analytics/main/Images/Net_Profit_by_Province.png)
 
 _Filled map chart visualizing profit variations across all provinces in Indonesia_
 
