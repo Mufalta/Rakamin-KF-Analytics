@@ -130,6 +130,10 @@ To answer specific business questions, I will use animated GIFs to simulate **re
 
 To analyze Kimia Farma's revenue trends from 2020 to 2023, I set **Year-Month** as the dimension (x-axis) and **Net Sales** as the metric (y-axis). Since the data represents changes over time, I used a **Line Chart**, which is ideal for visualizing trends and identifying revenue patterns across different periods. This approach allows us to track revenue fluctuations over time and identify key growth patterns.
 
+![](https://raw.githubusercontent.com/Mufalta/Rakamin-KF-Analytics/main/Images/Net_Sales_Over_Time.png)
+
+_Line chart visualizing the net sales from 2020 to 2023_
+
 
 
 
