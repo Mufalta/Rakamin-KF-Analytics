@@ -21,9 +21,9 @@ The dataset is obtained directly from **Kimia Farma's internal records**. Due to
 
 🌍 Which provinces have the highest total transactions?
 
-💰 What are the top 10 branches with the highest net sales?
+💰 Which top branches with the highest net sales?
 
-⭐ Which top 5 branches have the highest ratings but lowest transaction volumes?
+⭐ Which top branches have the highest ratings but lowest transaction volumes?
 
 🗺️ How does Kimia Farma’s total profit distribution look across Indonesia’s provinces?
 
@@ -139,6 +139,10 @@ Here's the breakdown of Kimia Farma's revenue evolved from 2020 to 2023:
 ![](https://raw.githubusercontent.com/Mufalta/Rakamin-KF-Analytics/main/Images/Net_Sales_Over_Time.png)
 
 _Line chart visualizing the net sales from 2020 to 2023_
+
+### **2. Which provinces have the highest total transactions?** 🌍
+
+
 
 
 
