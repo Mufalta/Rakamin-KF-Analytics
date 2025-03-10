@@ -128,7 +128,7 @@ To answer specific business questions, I will use animated GIFs to simulate **re
 
 ### **1. How has Kimia Farma's revenue evolved from 2020 to 2023?** 📈
 
-To analyze Kimia Farma's revenue trends from 2020 to 2023, I set **Year-Month** as the dimension (x-axis) and **Net Sales** as the metric (y-axis). Since the data represents changes over time, I used a **Line Chart**, which is ideal for visualizing trends and identifying revenue patterns across different periods. This approach allows us to track revenue fluctuations over time and identify key growth patterns.
+To analyze Kimia Farma's revenue trends from 2020 to 2023, I set '''Year-Month''' as the dimension (x-axis) and **Nett_Sales** as the metric (y-axis). Since the data represents changes over time. I used a **Line Chart**, which is ideal for visualizing trends and identifying revenue patterns across different periods. This approach allows us to track revenue fluctuations over time and identify key growth patterns.
 
 Here's the breakdown of Kimia Farma's revenue evolved from 2020 to 2023:
 
@@ -142,7 +142,7 @@ _Line chart visualizing the net sales from 2020 to 2023_
 
 ### **2. Which provinces have the highest total transactions?** 🌍
 
-To analyze net profit distribution across provinces, I used a **Filled Map Chart** because it provides a clear geographic visualization of profit variations. The color intensity helps quickly identify provinces with the highest and lowest profits, making regional comparisons easier.
+To analyze net profit distribution across provinces, I set **Province** as the location dimension and NetProfit as the metric. I used a **Filled Map Chart** because it provides a clear geographic visualization of profit variations. The color intensity helps quickly identify provinces with the highest and lowest profits, making regional comparisons easier.
 
 Here's the breakdown of net profit distribution across provinces:
 
