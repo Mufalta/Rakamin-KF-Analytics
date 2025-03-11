@@ -37,7 +37,7 @@ For this project analyzing Kimia Farma's business performance, I utilized severa
 - **Google Looker Studio**: Used to create interactive dashboards, transforming raw data into visual insights for better decision-making.
 - **GitHub**: Essential for version control, tracking progress, and sharing my work in a structured and collaborative manner.
 
-These tools allowed me to streamline data analysis, visualization, and project management effectively. 🔍
+These tools allowed me to streamline data analysis and visualization effectively. 🔍
 
 # 📂 Data Understanding
 
