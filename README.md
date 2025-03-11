@@ -200,51 +200,38 @@ Through this analysis, we gain **valuable insights** into Kimia Farma’s busine
 
 Throughout this journey, I’ve leveled up my data analytics skills by diving deep into **Google BigQuery** and **Google Looker Studio**, mastering both SQL coding and data visualization.
 
-### 🛠 SQL Mastery in BigQuery
+### SQL Mastery in BigQuery
 
 - Uploaded datasets and structured them into tables.
 - Merged tables efficiently to create a unified dataset.
 - Crafted SQL queries using **SELECT, FROM, AS, CASE, WHEN, END and JOIN** to manipulate and analyze data like a pro.
 
-### 📊 Visual Storytelling in Looker Studio
+### Visual Storytelling in Looker Studio
 
-- Transformed raw data into compelling insights with bar charts, geo maps, line charts, and table charts.
+- Transformed raw data into compelling insights with **bar charts, geo maps, line charts, and table charts**.
 - Designed interactive dashboards to explore trends and patterns dynamically.
 
-### 💡 From Queries to Insights
+### From Queries to Insights
 This project wasn’t just about writing SQL—it was about **turning data into decisions**, using visualization to bring numbers to life and uncover actionable insights.
 
+# 🔍 Conclusions
 
+### Insights
 
+From the analysis, several general insights emerged:
 
+📈 **Revenue Trends:** Kimia Farma's net sales exhibit a recurring decline every February, with the highest sales recorded in May 2020 (Rp7.49 billion) and the lowest in February 2022 (Rp6.67 billion), indicating seasonal patterns.
 
+🗺️ **Profit Distribution:** West Java leads with the highest net profit of approximately Rp29.10 billion, while several provinces, including Bengkulu, Lampung, and West Sulawesi, show no recorded profit, highlighting potential market expansion opportunities.
 
+🏆 **Top Transaction Provinces:** West Java has the highest transaction count at approximately 199K, making it the most active province in sales, while provinces like Riau and East Kalimantan show growth potential.
 
+💰 **Net Sales Leaders:** West Java also dominates in net sales with Rp102.49 billion, while provinces like Riau, East Kalimantan, and West Nusa Tenggara have sales below Rp11 billion, suggesting room for further development.
 
+⭐ **Branch Ratings vs. Transaction Ratings:** Papua Barat has the highest branch rating (4.64) but a lower transaction rating (4.00), indicating potential gaps in the overall customer experience, while West Nusa Tenggara has the lowest transaction rating (3.99) despite a solid branch rating.
 
+These insights provide a data-driven foundation for optimizing business strategies, identifying areas for growth, and enhancing customer experience. By leveraging Google Looker Studio for real-time data exploration, Kimia Farma can make informed decisions to **boost operational efficiency, maximize profitability, and strengthen market presence**.
 
+### Closing Thoughts
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+This project enhanced my **SQL and data visualization skills** while providing valuable insights into **Kimia Farma's business performance**. By analyzing revenue trends, regional profit distribution, and transaction patterns, this study serves as a data-driven guide for strategic decision-making. The findings highlight the importance of leveraging data analytics to identify key business opportunities and challenges. As the field continues to evolve, **continuous learning and adaptation are essential for extracting meaningful insights and making informed decisions**.
