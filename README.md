@@ -194,7 +194,7 @@ Here's the breakdown of branch ratings with low transaction ratings:
 
 _Table Chart visualizing the top 10 provinces with the highest ratings but the lowest transaction counts_
 
-Through this analysis, we gain **valuable insights** into Kimia Farma’s business performance across various provinces. Identifying trends in **revenue, profit distribution, transactions, and customer ratings** helps pinpoint areas for growth and improvement. By leveraging **data visualization** and **interactive dashboards**, we can make informed decisions to **enhance operational efficiency, optimize sales strategies, and improve customer experience**. This data-driven approach ensures that business actions are based on real trends and patterns, maximizing impact and profitability.
+Through this analysis, we gain **valuable insights** into Kimia Farma’s business performance across various provinces. Identifying trends in revenue, profit distribution, transactions, and customer ratings helps pinpoint areas for growth and improvement. By leveraging data visualization and interactive dashboards, we can make informed decisions to **enhance operational efficiency, optimize sales strategies, and improve customer experience**. This data-driven approach ensures that business actions are based on real trends and patterns, maximizing impact and profitability.
 
 # 📚 What I Learned
 
