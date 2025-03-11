@@ -96,7 +96,7 @@ JOIN `kimia_farma.kf_kantor_cabang` c
 JOIN `kimia_farma.kf_product` p 
     ON t.product_id = p.product_id;
 ```
-After successfully creating the ```analyze``` table in **Google BigQuery** by merging the CSV files, the next step is to connect this table to **Google Looker Studio** for **data analysis and visualization**.
+After successfully creating the ```analyze``` table in **Google BigQuery** by merging the CSV files, the next step is to connect this table to **Google Looker Studio** for data analysis and visualization.
 
 ### **Connecting BigQuery to Google Looker Studio**
 
@@ -113,7 +113,7 @@ Once the ```analyze``` table is connected, the data can be visualized using vari
 - **Geo Maps** 🗺️: To visualize the distribution of transactions, net sales and net profit across different locations.
 - **Tables & Scorecards** 📊: To highlight key metrics like total revenue, net profit, and transactions.
 
-By leveraging **Google Looker Studio**, I can gain deeper insights into **Kimia Farma's business performance**, enabling data-driven decision-making. 🎯
+By leveraging Google Looker Studio, I can gain deeper insights into Kimia Farma's business performance, enabling **data-driven decision-making**. 🎯
 
 # 📑 The Analysis
 
