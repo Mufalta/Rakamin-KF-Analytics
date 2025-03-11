@@ -199,7 +199,22 @@ Through this analysis, we gain **valuable insights** into Kimia Farma’s busine
 # 📚 What I Learned
 
 Throughout this journey, I’ve leveled up my data analytics skills by diving deep into **Google BigQuery** and **Google Looker Studio**, mastering both SQL coding and data visualization.
+
 ### 🛠 SQL Mastery in BigQuery
+
+- Uploaded datasets and structured them into tables.
+- Merged tables efficiently to create a unified dataset.
+- Crafted SQL queries using **SELECT, FROM, AS, CASE, WHEN, END and JOIN** to manipulate and analyze data like a pro.
+
+### 📊 Visual Storytelling in Looker Studio
+
+- Transformed raw data into compelling insights with bar charts, geo maps, line charts, and table charts.
+- Designed interactive dashboards to explore trends and patterns dynamically.
+
+### 💡 From Queries to Insights
+This project wasn’t just about writing SQL—it was about **turning data into decisions**, using visualization to bring numbers to life and uncover actionable insights.
+
+
 
 
 
