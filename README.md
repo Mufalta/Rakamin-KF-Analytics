@@ -13,7 +13,7 @@ The final results will be presented through an **interactive dashboard in Google
 
 Driven by a quest to gain deeper insights into Kimia Farma's business performance, this project was initiated as a part of a **Big Data Analytics program by Rakamin Academy in collaboration with Kimia Farma**. The goal is to analyze key business metrics from 2020 to 2023, providing valuable insights for decision-making.
 
-The dataset is obtained directly from Kimia Farma's internal records. Due to the **sensitive and confidential** nature of the data, the dataset will not publicly shared. This analysis aims to generate a comprehensive dashboard in Google Looker Studio, allowing stakeholders to visualize Kimia Farma's business trends effectively.
+The dataset is obtained directly from Kimia Farma's internal records. Due to the **sensitive and confidential** nature of the data, the dataset will not publicly shared. This analysis aims to generate a comprehensive dashboard in Google Looker Studio, allowing us to visualize Kimia Farma's business trends effectively.
 
 ### **Through SQL queries and data visualization, the project seeks to answer**:
 
