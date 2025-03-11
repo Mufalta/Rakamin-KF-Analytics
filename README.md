@@ -128,7 +128,7 @@ To answer specific business questions, I will use animated GIFs to simulate **re
 
 ### **1. How has Kimia Farma’s revenue changed from 2020 to 2023?** 📈
 
-To analyze Kimia Farma's revenue trends from 2020 to 2023, I set ```date``` as the dimension (x-axis) and ```nett_sales``` as the metric (y-axis). Since the data represents changes over time. I used a **Line Chart**, which is ideal for visualizing trends and identifying revenue patterns across different periods. This approach allows us to track revenue fluctuations over time and identify key growth patterns.
+To analyze Kimia Farma's revenue trends from 2020 to 2023, I set ```date``` as the dimension (x-axis) and ```nett_sales``` as the metric (y-axis). Since the data represents changes over time, I used a **Line Chart**, which is ideal for visualizing trends and identifying revenue patterns across different periods. This approach allows us to track revenue fluctuations over time and identify key growth patterns.
 
 Here's the breakdown of Kimia Farma's revenue evolved from 2020 to 2023:
 
