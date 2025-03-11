@@ -23,9 +23,9 @@ The dataset is obtained directly from **Kimia Farma's internal records**. Due to
 
 🏆 Which are the top 10 provinces with the highest total transactions?
 
+💰 Which are the top 10 provinces with the highest net sales?
 
-
-⭐ How does Kimia Farma’s total profit distribution look across Indonesia’s provinces?
+⭐ Which are the top 10 provinces with the highest ratings but the lowest transaction counts?
 
 By developing this project, I aim to enhance my **data analytics skills**, particularly in **SQL, BigQuery, and Google Looker Studio**, while delivering valuable insights for **Kimia Farma’s business strategy**. 📊
 
@@ -161,7 +161,7 @@ To analyze transaction distribution across provinces, I set ```transaction_id```
 Here's the breakdown of transaction distribution across provinces:
 
 - **Highest Transactions:** The highest transaction count is recorded in West Java, reaching approximately 199K transactions, making it the most active province in terms of sales.
-- **Lower Transactions in Some Provinces:** Provinces like Riau and Kalimantan Timur have 20K transactions, suggesting potential areas for market expansion.
+- **Potential for Growth:** Provinces like Riau and Kalimantan Timur have 20K transactions, suggesting potential areas for market expansion.
 
 ![](https://raw.githubusercontent.com/Mufalta/Rakamin-KF-Analytics/main/Images/Transaction_Count_by_Province.png)
 
@@ -179,6 +179,19 @@ Here's the breakdown of net sales distribution across provinces:
 ![](https://raw.githubusercontent.com/Mufalta/Rakamin-KF-Analytics/main/Images/Net_Sales_by_Province.png)
 
 _Bar chart visualizing total net sales in the top 10 provinces with the highest net sales_
+
+### **5. Which are the top 10 provinces with the highest ratings but the lowest transaction counts?** ⭐
+
+To analyze branch ratings with low transaction ratings across provinces, I set ```provinsi``` as the dimension, ```rating_cabang``` as the primary sorting metric in descending order, and ```rating_transaksi``` as the secondary sorting metric in ascending order. I used a Table Chart because it provides a clear side-by-side comparison of both ratings, making it easy to spot provinces where branch performance is high but transaction experience is rated lower.
+
+Here's the breakdown of branch ratings with low transaction ratings:
+
+- **High Branch Ratings, Low Transaction Ratings:** Despite having strong branch ratings above 4.48, all listed provinces have relatively lower transaction ratings, indicating possible issues in customer experience beyond the branch itself.
+- **Papua Barat Leads in Branch Rating:** Papua Barat has the highest branch rating at 4.64, but its transaction rating remains at 4, suggesting that operational factors beyond branch service may impact customer satisfaction.
+- **Lowest Transaction Rating in Nusa Tenggara Barat:** Nusa Tenggara Barat has the lowest transaction rating at 3.99, despite a respectable branch rating of 4.49, highlighting a gap between in-store experience and transaction-related aspects like payment processing or delivery.
+
+
+
 
 
 
