@@ -190,6 +190,10 @@ Here's the breakdown of branch ratings with low transaction ratings:
 - **Papua Barat Leads in Branch Rating:** Papua Barat has the highest branch rating at 4.64, but its transaction rating remains at 4, suggesting that operational factors beyond branch service may impact customer satisfaction.
 - **Lowest Transaction Rating in Nusa Tenggara Barat:** Nusa Tenggara Barat has the lowest transaction rating at 3.99, despite a respectable branch rating of 4.49, highlighting a gap between in-store experience and transaction-related aspects like payment processing or delivery.
 
+![](https://raw.githubusercontent.com/Mufalta/Rakamin-KF-Analytics/main/Images/Top_Provinces_by_Branch_Rating_with_Low_Transaction_Rating.png)
+
+_Table Chart visualizing the top 10 provinces with the highest ratings but the lowest transaction counts_
+
 
 
 
