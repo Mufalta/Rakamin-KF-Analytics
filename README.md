@@ -126,7 +126,7 @@ _Dashboard of Kimia Farma Business Performance from 2020 to 2023_
 
 To answer specific business questions, I will use animated GIFs to simulate **real-time** data exploration within the dashboard.
 
-### **1. How has Kimia Farma’s revenue changed from 2020 to 2023** 📈
+### **1. How has Kimia Farma’s revenue changed from 2020 to 2023?** 📈
 
 To analyze Kimia Farma's revenue trends from 2020 to 2023, I set ```date``` as the dimension (x-axis) and ```nett_sales``` as the metric (y-axis). Since the data represents changes over time. I used a **Line Chart**, which is ideal for visualizing trends and identifying revenue patterns across different periods. This approach allows us to track revenue fluctuations over time and identify key growth patterns.
 
@@ -140,9 +140,9 @@ Here's the breakdown of Kimia Farma's revenue evolved from 2020 to 2023:
 
 _Line chart visualizing the net sales from 2020 to 2023_
 
-### **2. What is Indonesia’s geo map distribution of total profit by province** 🗺️
+### **2. What is Indonesia’s geo map distribution of total profit by province?** 🗺️
 
-To analyze net profit distribution across provinces, I set ```Province``` as the location dimension and ```nett_profit``` as the metric. I used a **Filled Map Chart** because it provides a clear geographic visualization of profit variations. The color intensity helps quickly identify provinces with the highest and lowest profits, making regional comparisons easier.
+To analyze net profit distribution across provinces, I set ```provinsi``` as the location dimension and ```nett_profit``` as the metric. I used a **Filled Map Chart** because it provides a clear geographic visualization of profit variations. The color intensity helps quickly identify provinces with the highest and lowest profits, making regional comparisons easier.
 
 Here's the breakdown of net profit distribution across provinces:
 
@@ -153,6 +153,19 @@ Here's the breakdown of net profit distribution across provinces:
 ![](https://raw.githubusercontent.com/Mufalta/Rakamin-KF-Analytics/main/Images/Net_Profit_by_Province.png)
 
 _Filled map chart visualizing profit variations across all provinces in Indonesia_
+
+### **3. Which are the top 10 provinces with the highest total transactions?** 🏆
+
+To analyze transaction distribution across provinces, I set ```transaction_id``` as the metric (x-axis) and ```provinsi``` as the dimension (y-axis). I used a **Bar Chart** because it effectively compares transaction counts across different regions. The horizontal bars make it easy to see which provinces have the highest and lowest number of transactions, allowing for quick regional comparisons.
+
+Here's the breakdown of transaction distribution across provinces:
+
+- **Highest Transactions:** The highest transaction count is recorded in West Java, reaching approximately 199K transactions, making it the most active province in terms of sales.
+- **Lower Transactions in Some Provinces:** Provinces like Riau and Kalimantan Timur have 20K transactions, suggesting potential areas for market expansion.
+
+![](https://raw.githubusercontent.com/Mufalta/Rakamin-KF-Analytics/main/Images/Transaction_Count_by_Province.png)
+
+_Bar chart visualizing total transactions count in the top 10 provinces with the highest total transactions_
 
 
 
