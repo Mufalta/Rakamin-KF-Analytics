@@ -23,7 +23,7 @@ The dataset is obtained directly from **Kimia Farma's internal records**. Due to
 
 🏆 Which are the top 10 provinces with the highest total transactions?
 
-💰 Which are the top 10 provinces with the highest net sales?
+
 
 ⭐ How does Kimia Farma’s total profit distribution look across Indonesia’s provinces?
 
@@ -166,6 +166,19 @@ Here's the breakdown of transaction distribution across provinces:
 ![](https://raw.githubusercontent.com/Mufalta/Rakamin-KF-Analytics/main/Images/Transaction_Count_by_Province.png)
 
 _Bar chart visualizing total transactions count in the top 10 provinces with the highest total transactions_
+
+### **4. Which are the top 10 provinces with the highest net sales?** 💰
+
+To analyze net sales distribution across provinces, I set ```nett_sales``` as the metric (x-axis) and ```provinsi``` as the dimension (y-axis). I chose a **Bar Chart** because it effectively showcases sales performance across different regions. The horizontal bars provide a clear visual comparison, making it easy to spot provinces with the highest and lowest revenue.
+
+Here's the breakdown of net sales distribution across provinces:
+
+- **Highest Sales:** West Java recorded the highest net sales, reaching Rp102.49 billion, making it the most dominant province in terms of revenue.
+- **Potential for Growth:** Provinces such as Riau, Kalimantan Timur, and Nusa Tenggara Barat have net sales below Rp11 billion, indicating potential areas for further market expansion.
+
+![](https://raw.githubusercontent.com/Mufalta/Rakamin-KF-Analytics/main/Images/Net_Sales_by_Province.png)
+
+_Bar chart visualizing total net sales in the top 10 provinces with the highest net sales_
 
 
 
