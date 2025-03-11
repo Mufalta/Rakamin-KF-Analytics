@@ -117,7 +117,7 @@ By leveraging Google Looker Studio, I can gain deeper insights into Kimia Farma'
 
 # 📑 The Analysis
 
-After transforming the data into an **interactive dashboard**, it's time to delve into the analysis. To provide better clarity, I will display the **dashboard images** below for reference.. Additionally, you can explore the **live dashboard** on Google Looker Studio by clicking the link below:
+After transforming the data into an **interactive dashboard**, it's time to delve into the analysis. To provide better clarity, I will display the **dashboard images** below for reference. Additionally, you can explore the **live dashboard** on Google Looker Studio by clicking the link below:
 [Kimia Farma Dashboard](https://lookerstudio.google.com/s/tk9f2XAa8Ac)
 
 ![](https://raw.githubusercontent.com/Mufalta/Rakamin-KF-Analytics/main/Images/Dashboard.jpg)
