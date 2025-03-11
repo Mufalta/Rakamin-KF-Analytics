@@ -176,8 +176,6 @@ Here's the breakdown of net sales distribution across provinces:
 - **Highest Sales:** West Java recorded the highest net sales, reaching Rp102.49 billion, making it the most dominant province in terms of revenue.
 - **Potential for Growth:** Provinces such as Riau, Kalimantan Timur, and Nusa Tenggara Barat have net sales below Rp11 billion, indicating potential areas for further market expansion.
 
-![](https://raw.githubusercontent.com/Mufalta/Rakamin-KF-Analytics/main/Images/Net_Sales_by_Province.png)
-
 _Bar chart visualizing total net sales in the top 10 provinces with the highest net sales_
 
 
