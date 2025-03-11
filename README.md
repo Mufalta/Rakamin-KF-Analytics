@@ -199,8 +199,7 @@ Through this analysis, we gain **valuable insights** into Kimia Farma’s busine
 # 📚 What I Learned
 
 Throughout this journey, I’ve leveled up my data analytics skills by diving deep into **Google BigQuery** and **Google Looker Studio**, mastering both SQL coding and data visualization.
-
-### 🛠 SQL Mastery in BigQuery:
+### 🛠 SQL Mastery in BigQuery
 
 
 
